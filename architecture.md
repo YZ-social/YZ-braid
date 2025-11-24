@@ -189,7 +189,7 @@ This creates a **DAG (Directed Acyclic Graph) of Trust**.
 
 2.  **Takeover Resistance (Sliding Window):**
     *   An attacker can only introduce 4 new nodes per epoch.
-    *   To control the shard (2/3 majority), they would need to win the "random alternate lottery" for 6 consecutive epochs without detection.
+    *   To control the shard, they would need to win the "random alternate lottery" for 6 consecutive epochs without detection.
 
 3.  **Fake Shard Resistance (Keeper Braid):**
     *   A fake shard cannot generate a valid chain of **Validity Receipts** because it cannot prove the "Overlap" with a history known to the Keepers.
